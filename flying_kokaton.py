@@ -30,7 +30,7 @@ def main():
             dy = 1
         if key_lst[pg.K_RIGHT]:
             dx = 0
-        tori_rct.move_ip(dx, dy)
+        tori_rct.move_ip(dx, dy)#演習2
         screen.blit(bg_img, [-tmr, 0])#練習5
         screen.blit(tori_img, tori_rct)#練習4-->10
         pg.display.update()

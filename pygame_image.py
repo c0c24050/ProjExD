@@ -22,6 +22,9 @@ def main():
         pg.display.update()
         tmr += 1
         clock.tick(200)#練習6
+        x = tmr%1600
+        screen.blit(bg_img, [-x, 0])
+        screen.blit(bg_img, [-x + 1600, 0])#練習7
 
 
 if __name__ == "__main__":
